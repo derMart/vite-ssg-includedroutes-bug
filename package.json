@@ -1,0 +1,20 @@
+{
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite-ssg build"
+  },
+  "dependencies": {
+    "vue": "^3.4.31"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.4",
+    "vite-ssg": "^0.24.2",
+    "vue-router": "^4.5.0",
+    "vue-tsc": "^2.0.24"
+  }
+}
